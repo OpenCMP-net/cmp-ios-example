@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domain</key>
+	<string>tz.de</string>
+	<key>allowedDomains</key>
+	<array>
+		<string>cdn.opencmp.net</string>
+		<string>www.tz.de</string>
+	</array>
+	<key>disableDomainAccessPolicy</key>
+	<true/>
+</dict>
+</plist>
