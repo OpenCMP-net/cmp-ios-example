@@ -11,5 +11,7 @@
 	</array>
 	<key>disableDomainAccessPolicy</key>
 	<true/>
+	<key>printBrowserLogs</key>
+	<true/>
 </dict>
 </plist>

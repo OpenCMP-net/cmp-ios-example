@@ -9,16 +9,17 @@ import SwiftUI
 import OpenCMP
 
 struct ContentView: View {
-  @State var isShowing: Bool = true
-  
   var body: some View {
     HStack {
       CookieConsentView(
-        acceptOrReject: { cookies in isShowing = false },
-        showUi: { isShowing = true },
-        hideUi: { isShowing = false }
+        acceptOrReject: { cookies in print(cookies) },
+        showUi: {  },
+        hideUi: {  }
       )
-//        .isHidden(!isShowing)
+      
+      Button("Show Ui", action: {
+        OpenCMPView.shared?.showUiByUser()
+      })
     }
     .background(Color.green)
   }

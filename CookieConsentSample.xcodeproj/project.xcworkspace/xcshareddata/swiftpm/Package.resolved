@@ -3,10 +3,10 @@
     {
       "identity" : "cmp-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://bitbucket.org/traffective/cmp-ios",
+      "location" : "https://github.com/OpenCMP-net/cmp-ios",
       "state" : {
-        "branch" : "master",
-        "revision" : "d22d0a31d46559be1ab51287e7ba54eae16e9473"
+        "branch" : "main",
+        "revision" : "817f1e24c3621968aa4bc46ae98051d8471d8983"
       }
     }
   ],
