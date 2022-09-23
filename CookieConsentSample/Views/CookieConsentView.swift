@@ -17,7 +17,15 @@ struct CookieConsentView: UIViewControllerRepresentable {
   var hideUi: () -> Void
   
   func makeUIViewController(context: Context) -> some UIViewController {
-    let uiView = try? OpenCMPView.shared(acceptOrReject: acceptOrReject, showUi: showUi, hideUi: hideUi)
+    let config = OpenCMPConfig(
+      domain: "traffective.com",
+      allowedDomains: ["www.traffective.com"],
+      disableDomainAccessPolicy: true,
+      printBrowserLogs: false
+    )
+    
+    let uiView = try? OpenCMPView.shared(config: config, acceptOrReject: acceptOrReject, showUi: showUi, hideUi: hideUi)
+    //let uiView = try? OpenCMPView.shared(acceptOrReject: acceptOrReject, showUi: showUi, hideUi: hideUi)
     return (uiView!)
   }
   

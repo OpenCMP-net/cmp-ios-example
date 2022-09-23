@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E111976F2836F03000B00955 /* OpenCMP-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E111976E2836F03000B00955 /* OpenCMP-Info.plist */; };
+		E1167D1328DDF2D000325448 /* OpenCMP in Frameworks */ = {isa = PBXBuildFile; productRef = E1167D1228DDF2D000325448 /* OpenCMP */; };
 		E12E5EEB283A5A4A0045E8F4 /* View+isHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12E5EEA283A5A4A0045E8F4 /* View+isHidden.swift */; };
-		E1AC68F928DA5C370054563D /* OpenCMP in Frameworks */ = {isa = PBXBuildFile; productRef = E1AC68F828DA5C370054563D /* OpenCMP */; };
 		E1BA25BB28282E770071EB6D /* CookieConsentSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA25BA28282E770071EB6D /* CookieConsentSampleApp.swift */; };
 		E1BA25BD28282E770071EB6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA25BC28282E770071EB6D /* ContentView.swift */; };
 		E1BA25BF28282E770071EB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BA25BE28282E770071EB6D /* Assets.xcassets */; };
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AC68F928DA5C370054563D /* OpenCMP in Frameworks */,
+				E1167D1328DDF2D000325448 /* OpenCMP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 			);
 			name = CookieConsentSample;
 			packageProductDependencies = (
-				E1AC68F828DA5C370054563D /* OpenCMP */,
+				E1167D1228DDF2D000325448 /* OpenCMP */,
 			);
 			productName = CookieConsentSample;
 			productReference = E1BA25B728282E770071EB6D /* CookieConsentSample.app */;
@@ -150,7 +150,7 @@
 			);
 			mainGroup = E1BA25AE28282E770071EB6D;
 			packageReferences = (
-				E1AC68F728DA5C370054563D /* XCRemoteSwiftPackageReference "cmp-ios" */,
+				E1167D1128DDF2D000325448 /* XCRemoteSwiftPackageReference "cmp-ios" */,
 			);
 			productRefGroup = E1BA25B828282E770071EB6D /* Products */;
 			projectDirPath = "";
@@ -393,7 +393,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E1AC68F728DA5C370054563D /* XCRemoteSwiftPackageReference "cmp-ios" */ = {
+		E1167D1128DDF2D000325448 /* XCRemoteSwiftPackageReference "cmp-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/OpenCMP-net/cmp-ios";
 			requirement = {
@@ -404,9 +404,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E1AC68F828DA5C370054563D /* OpenCMP */ = {
+		E1167D1228DDF2D000325448 /* OpenCMP */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E1AC68F728DA5C370054563D /* XCRemoteSwiftPackageReference "cmp-ios" */;
+			package = E1167D1128DDF2D000325448 /* XCRemoteSwiftPackageReference "cmp-ios" */;
 			productName = OpenCMP;
 		};
 /* End XCSwiftPackageProductDependency section */
